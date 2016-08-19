@@ -1,6 +1,6 @@
 {
   "name": "cocobag",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "configuration manager for hapi based on nconf",
   "main": "lib/index.js",
   "directories": {
@@ -36,6 +36,6 @@
     "lab": "^11.0.0"
   },
   "peerDependencies": {
-    "hapi": "14.x"
+    "hapi": ">= 13"
   }
 }
