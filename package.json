@@ -28,7 +28,7 @@
   "dependencies": {
     "joi": "^9.0.4",
     "nconf": "^0.8.4",
-    "pellmell": "^1.0.0"
+    "pellmell": "git+https://github.com/hapipip/pellmell"
   },
   "devDependencies": {
     "code": "^3.0.2",
