@@ -36,7 +36,7 @@ describe('Test nconf building', () => {
     server.register({
       register: require('../lib/index'),
       options: {
-        paths: [Path.join(__dirname, 'fixtures', 'dev')]
+        overrides: [Path.join(__dirname, 'fixtures', 'dev')]
       }
     }, (err) => {
       expect(err).to.not.exist()
@@ -54,7 +54,7 @@ describe('Test nconf building', () => {
       register: require('../lib/index'),
       options: {
         defaults: [Path.join(__dirname, 'fixtures', 'default')],
-        paths: [Path.join(__dirname, 'fixtures', 'dev')]
+        overrides: [Path.join(__dirname, 'fixtures', 'dev')]
       }
     }, (err) => {
       expect(err).to.not.exist();

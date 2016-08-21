@@ -30,7 +30,7 @@ server.register({
       Path.join(__dirname, 'default'),
       Path.join(__dirname, 'default2')
     ],
-    paths: [ // your environment configurations
+    overrides: [ // your environment configurations
       Path.join(__dirname, 'environment')
     ]
   }
