@@ -33,7 +33,7 @@
   "devDependencies": {
     "code": "^3.0.2",
     "hapi": "^14.2.0",
-    "lab": "^11.0.0"
+    "lab": "^11.0.1"
   },
   "peerDependencies": {
     "hapi": ">= 13"
